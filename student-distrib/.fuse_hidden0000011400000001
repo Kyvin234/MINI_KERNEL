@@ -1,0 +1,3 @@
+boot.o: boot.S multiboot.h x86_desc.h types.h
+idt_asm.o: idt_asm.S
+paging_init.o: paging_init.S
